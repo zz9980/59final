@@ -12,10 +12,10 @@
     _Claws should face forward, in the direction of motion_.
    See http://suffolk.li/cst112/59cst112/day/bam//Screen_Shot_2015-12-13_at_7.15.31_PM.png
   * Use a constructor to initialize properties of each "Lobster" to:
-    * start at a random height on the left side, 
-    * move to the right with a random horizontal speed (dx>0), and
-    * move vertically with a random speed (dy).
-  * Bounce off the sides (reversing dx) and bounce off the surface and bottom (reversing dy).  
+    * start on the left side, at a random height in the lower half of the water, 
+    * move to the right with a random horizontal speed (dx > 0), and
+    * move upward with a random speed (dy < 0).
+  * Bounce off the surface and bottom (reversing dy) and bounce off the sides (reversing dx).  
     _You may re-use old code from pool-table Ball objects._
   * Also include a **`hit( x, y )`** method, to return `true` iff this Lobster is near the coordinates (x,y).
 
@@ -24,10 +24,10 @@
 
 5. Add code to make all of the "Lobsters" move and show themselves.
 
-6. Add code to make any **`Squid`** object go to the bottom, when a "Lobster" hits (gets near) it. 
+6. Add code to make any **`Squid`** object go to the bottom, when a **`Lobster`** hits (gets near) it. 
 
 5. Add a __report__ for the array of **`Lobster`** objects.  
-    _(Sorting is NOT required.)_
+    _(Sorting is NOT required for this exam.)_
 
 6. Add a __"LEFT-RIGHT"__ button, and display the (x,y) positions of the leftmost and rightmost crabs (i.e. the two crabs with the highest and lowest X coordinate value), whever this button is clicked or the '$' key is pressed.
 
@@ -41,9 +41,9 @@ ___
 - Your code must be in a file named **`final-xyz.java`** _(where_ **`xyz`** _is your own initials_).
 - This code file must be in a repository named **`Final`** forked from http://github.com/bam59cst112day/Final
 - This repository must be in your Github.com account on http://github.com
-- Your code must compile and run *(in the Processing PDE)*
-- Your name should appear on the screen (in the lower-left corner).
-- Your full name must appear within the first few lines of the file *(in a comment line or String)*
+- Your code must __compile__ and __run__ *(in the Processing PDE)*
+- Your name should __appear__ on the screen (in the lower-left corner).
+- Your full __name__ must appear within the first few lines of the file *(in a comment line or String)*
 
 **Code that fails to meet ALL of the above conditions will NOT be considered.**
 ___
