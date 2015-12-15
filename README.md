@@ -7,26 +7,26 @@
   All features and movements should adjust to the size of the screen, the position of the surface, etc.  
   *(Avoid constant values, and use `height` and `width`!)*
 
-3. Create a new object class **`Crab`**, with properties and methods to accomplish following:
+3. Create a new object class **`Lobster`**, with properties and methods to accomplish following:
   * Show a creature with two animated "claws" that open and close as it moves.  
     _Claws should face forward, in the direction of motion_.
    See http://suffolk.li/cst112/59cst112/day/bam//Screen_Shot_2015-12-13_at_7.15.31_PM.png
-  * Use a constructor to initialize properties of each "crab" to:
+  * Use a constructor to initialize properties of each "Lobster" to:
     * start at a random height on the left side, 
     * move to the right with a random horizontal speed (dx>0), and
     * move vertically with a random speed (dy).
   * Bounce off the sides (reversing dx) and bounce off the surface and bottom (reversing dy).  
     _You may re-use old code from pool-table Ball objects._
-  * Also include a **`hit( x, y )`** method, to return `true` iff this crab is near the coordinates (x,y).
+  * Also include a **`hit( x, y )`** method, to return `true` iff this Lobster is near the coordinates (x,y).
 
-3. Make an array of **`Crab`** objects, using YOUR OWN initials.  
-   _If your name is Donald Trump, then your array should be declared as:_  **`Crab[] dt`** 
+3. Make an array of **`Lobster`** objects, using YOUR OWN initials.  
+   _If your name is Donald Trump, then your array should be declared as:_  **`Lobster[] dt`** 
 
-5. Add code to make all of the "crabs" move and show themselves.
+5. Add code to make all of the "Lobsters" move and show themselves.
 
-6. Add code to make any **`Squid`** object go to the bottom, when a "crab" hits (gets near) it. 
+6. Add code to make any **`Squid`** object go to the bottom, when a "Lobster" hits (gets near) it. 
 
-5. Add a __report__ for the array of **`Crab`** objects.  
+5. Add a __report__ for the array of **`Lobster`** objects.  
     _(Sorting is NOT required.)_
 
 6. Add a __"LEFT-RIGHT"__ button, and display the (x,y) positions of the leftmost and rightmost crabs (i.e. the two crabs with the highest and lowest X coordinate value), whever this button is clicked or the '$' key is pressed.
