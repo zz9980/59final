@@ -19,17 +19,17 @@
     _You may re-use old code from pool-table Ball objects._
   * Also include a **`hit( x, y )`** method, to return `true` iff this Lobster is near the coordinates (x,y).
 
-3. Make an array of **`Lobster`** objects, using YOUR OWN initials.  
-   _If your name is Donald Trump, then your array should be declared as:_  **`Lobster[] dt`** 
+3. Make an array of **`Lobster`** objects, using YOUR OWN _(in lower case)_ initials.  
+   _If your name is Donald Q. Trump, then your array should be declared as:_  **`Lobster[] dqt`** 
 
 5. Add code to make all of the "Lobsters" move and show themselves.
 
 6. Add code to make any **`Squid`** object go to the bottom, when a **`Lobster`** hits (gets near) it. 
 
-7. Add a __report__ for the array of **`Lobster`** objects.  
-    _(Sorting is NOT required for this exam.)_
+8. . Add a __"LEFT-RIGHT"__ button, and display the (x,y) positions of the leftmost and rightmost crabs (i.e. the two crabs with the highest and lowest X coordinate value), whever this button is clicked or the '$' key is pressed.
 
-8. Add a __"LEFT-RIGHT"__ button, and display the (x,y) positions of the leftmost and rightmost crabs (i.e. the two crabs with the highest and lowest X coordinate value), whever this button is clicked or the '$' key is pressed.
+7. Add a __report__ for the array of **`Lobster`** objects.  
+    _(Sorting is NOT required for this exam.)_ 
 
 ____
 #### Readability and good coding practices are important:
