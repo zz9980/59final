@@ -40,7 +40,7 @@ ____
 ___
 #### NOTE:  To be graded, your final exam must meet ALL of the following conditions:
 - Your code must be in a file named **`final-xyz.java`** _(where_ **`xyz`** _is your own initials_).
-- This code file must be in a repository named **`Final`** forked from http://github.com/bam59cst112day/Final
+- This code file must be in a repository named **`59final`** forked from http://github.com/bam59cst112day/59final
 - This repository must be in your Github.com account on http://github.com
 - Your code must __compile__ and __run__ *(in the Processing PDE)*
 - Your name should __appear__ on the screen (in the lower-left corner).
