@@ -26,10 +26,11 @@
 
 6. Add code to make any **`Squid`** object go to the bottom, when a **`Lobster`** hits (gets near) it. 
 
-8. . Add a __"LEFT-RIGHT"__ button, and display the (x,y) positions of the leftmost and rightmost crabs (i.e. the two crabs with the highest and lowest X coordinate value), whever this button is clicked or the '$' key is pressed.
+8. Add a __"LEFT-RIGHT"__ button, and display the (x,y) positions of the leftmost and rightmost crabs (i.e. the two crabs with the highest and lowest X coordinate value), whever this button is clicked or the '$' key is pressed.
 
 7. Add a __report__ for the array of **`Lobster`** objects.  
-    _(Sorting is NOT required for this exam.)_ 
+    _(You may add the this to the existing report for **`Squid`** and **`Boat`** objects.  
+    Sorting is NOT required for this exam.)_ 
 
 ____
 #### Readability and good coding practices are important:
